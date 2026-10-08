@@ -1,0 +1,23 @@
+# Oracle DB credentials
+DB_USER=MahmoudS
+DB_PASSWORD=your_password
+ECOMMERCE_ORACLE_DSN=host:1524/service_name
+DEFAULT_SCHEMA=ECOMMERCE
+DEFAULT_MAX_SQL_ROWS=10000
+
+# AI Configuration
+AI_PROVIDER=ollama
+OLLAMA_BASE_URL=http://localhost:11434/v1
+OLLAMA_MODEL=granite4.1:3b
+AI_TEMPERATURE=0.05
+AI_MAX_TOKENS=2048
+
+# Optional OpenAI configuration
+OPENAI_API_KEY=
+OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_MODEL=gpt-4o-mini
+
+# Optional extra DSNs if needed
+RISK_ORACLE_DSN=
+POS_ORACLE_DSN=
+EXTRANET_ORACLE_DSN=
